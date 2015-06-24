@@ -1,35 +1,751 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>wiquadro by wiquadro</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css_site/style.min.css">
+    <title>wiquadro</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>wiquadro</h1>
-        <p></p>
-
-
-        <p class="view"><a href="https://github.com/wiquadro">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <p>apresentação wiquadro</p>
+    <div class="row row-top"></div>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <section id="header" class="container">
+      <div class="navbar-header">
+        <div class="col-xs-6">
+          <a class="navbar-brand anchor" href="#wiquadro" style="padding:9px !important">
+            <img id="logo" alt="Wiquadro" style="margin-left: 30px; width:180px;" src="/images/home/logo.svg" />
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
+            <div class="col-xs-offset-2 col-xs-2">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </div>
+            <div class="col-xs-6">
+              <span>MENU</span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="btn-cinzaE">
+          <a href="#aPlataforma" class="anchor">a plataforma</a>
+          </li>
+          <li class="btn-cinzaE">
+          <a href="#comoFunciona" class="anchor">como funciona</a>
+          </li>
+          <li class="btn-cinzaE">
+          <a href="#beneficiados" class="anchor">beneficiados</a>
+          </li>
+          <li class="btn-cinzaE">
+          <a href="#porDentro" class="anchor">por dentro</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-login">
+          <li><a href="#login" class="btn-laranja">LOGIN</a></li>
+          <li><a href="/site/registro" class="btn-vermelha" >CADASTRAR</a></li>
+        </ul>
+      </div>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    </div><!-- End Header -->
+    <div id="wiquadro" class="row pictureRow">
+      <div class="container" style="text-align:center;">
+        <div id="wiquadro-carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#wiquadro-carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#wiquadro-carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#wiquadro-carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#wiquadro-carousel-example-generic" data-slide-to="3"></li><br>
+            <br>
+            <a href="/site/faleConosco">
+              <span class="btn btn-warning">FALE CONOSCO</span>
+            </a>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div>
+                <h1>NECESSIDADES DOS EDUCADORES</h1>
+                <p>
+                Plataforma adaptativa desenvolvida para atender as<br> necessidades de infraestrutura de todos educadores.            </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <h1>CONTEÚDOS DE ENSINO</h1>
+                <p>
+                O wiquadro é capaz de acolher qualquer tipo de conteúdo.<br> Não submete o educador a conteúdos<br> prontos ou exige mudanças na forma de ensinar.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <h1>ACESSO PERSONALIZADO</h1>
+                <p>
+                Disponibiliza acesso personalizado de acordo com as necessidades<br> do usuário: gestores, professores, alunos e responsáveis.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <h1>MÉTODOS DE ENSINO</h1>
+                <p>
+                Adequado a qualquer modelo de ensino:<br> presencial, blended learning, flipped classroom,<br> webtv, multidirecional, IPTV e vídeoconferência</p>
+              </div>
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#wiquadro-carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#wiquadro-carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+
+      </div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+    <div id="video" class="row pictureRow" >
+      <div class="container">
+        <div  class="col-md-10 col-md-offset-1" style="">
+          <h1 class="text-uppercase">Assista ao vídeo e conheça mais:</h1>
+          <iframe id="video-iframe"
+            src="https://www.youtube.com/embed/UzLvs_9g9KM?rel=0&amp;showinfo=0"
+            frameborder="0" allowfullscreen>Vídeo Institucional</iframe>
+        </div>
+      </div>
+    </div>
+    <div id="aPlataforma" class="row pictureRow" >
+      <div class="container">
+        <div  class="col-md-4 col-sm-12 col-xs-12 text" style="">
+          <h1 class="text-uppercase">a plataforma</h1>
+          <p>
+          Dotado de software inteligente, o Wiquadro é uma plataforma adaptativa que proporciona ensino personalizado, adequado à cultura local, perfil e ritmo de cada aluno.
+          Possibilita construir e disponibilizar conteúdos em qualquer formato, como: games, imagens, vídeos, textos, exercícios.</p>
+          <img  class="visible-sm visible-xs" src="/images/home/plataforma_mobile-01.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <div id="comoFunciona" class="row">
+      <div class="container hidden-xs hidden-sm">
+        <div class="container-fluid">
+          <h1 class="text-uppercase">como funciona</h1>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <div class="bubble bubble-estude"></div>
+              <div class="caption">
+                <h3>ESTUDE</h3>
+                <p>Área onde o aluno acessa as aulas disponibilizadas pelo professor, na forma de textos, imagens, ilustrações, vídeos, atividades interativas, permitindo estudar no próprio ritmo, receber orientações e tarefas personalizadas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <div class="bubble bubble-pratique"></div>
+              <div class="caption">
+                <h3>PRATIQUE</h3>
+                <p>No pratique o aluno acessa os exercícios de cada lição, dispondo de dicas e resoluções das questões no formato carregado pelo professor: vídeo, texto e outros.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <div class="bubble bubble-teste"></div>
+              <div class="caption">
+                <h3>TESTE</h3>
+                <p>Área onde o professor disponibiliza o banco de questões para testar os conhecimentos adquiridos relativos às aulas individualizadas, e também disponibiliza avalição final.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <div class="bubble bubble-desempenho"></div>
+              <div class="caption">
+                <h3>DESEMPENHO</h3>
+                <p>Todas as interações do aluno são registradas, gerando relatórios que permitem avaliar a evolução do processo de aprendizagem,
+                possibilitando oferecer conteúdos e tarefas personalizadas, para suprir as carências observadas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container visible-xs visible-sm" style="text-align:center;">
+        <h1 class="text-uppercase">como funciona</h1>
+        <div id="como-funciona-carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#como-funciona-carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#como-funciona-carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#como-funciona-carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#como-funciona-carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="thumbnail">
+                <div class="bubble bubble-estude"></div>
+                <div class="caption">
+                  <h3>ESTUDE</h3>
+                  <p>Área onde o aluno acessa as aulas disponibilizadas pelo professor, na forma de textos, imagens, ilustrações, vídeos, atividades interativas, permitindo estudar no próprio ritmo, receber orientações e tarefas personalizadas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <div class="bubble bubble-pratique"></div>
+                <div class="caption">
+                  <h3>PRATIQUE</h3>
+                  <p>No pratique o aluno acessa os exercícios de cada lição, dispondo de dicas e resoluções das questões no formato carregado pelo professor: vídeo, texto e outros.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <div class="bubble bubble-teste"></div>
+                <div class="caption">
+                  <h3>TESTE</h3>
+                  <p>Área onde o professor disponibiliza o banco de questões para testar os conhecimentos adquiridos relativos às aulas individualizadas e, também disponibiliza avalição final.</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumbnail">
+                <div class="bubble bubble-desempenho"></div>
+                <div class="caption">
+                  <h3>DESEMPENHO</h3>
+                  <p>Todas as interações do aluno são registradas, gerando relatórios que permitem avaliar a evolução do processo de aprendizagem,
+                  possibilitando oferecer conteúdos e tarefas personalizadas, para suprir as carências observadas.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#como-funciona-carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#como-funciona-carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="beneficiados" class="row">
+      <div class="container  hidden-xs hidden-sm">
+        <h1 class="text-uppercase">beneficiados</h1>
+        <div class="row ">
+          <div class="col-md-3" style="padding:0px">
+            <div class="thumbnail">
+              <div style="background:url(/images/home/professores.jpg);"
+                class="layoutTab img active" data-slide-index="1">
+              </div>
+              <div class="bubbleLabel" style="">
+                <h3 style="color:white;line-height:50px;">PROFESSORES</h3>
+              </div>
+              <div data-slide-index="1" class="divisorPin slideTabDiv active">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="padding:0px">
+            <div class="thumbnail">
+              <div style="background:url(/images/home/gestores.jpg);" class="layoutTab img" data-slide-index="2"></div>
+              <div class="bubbleLabel" style="">
+                <h3 style="color:white;line-height:50px;">GESTORES</h3>
+              </div>
+              <div data-slide-index="2" class="divisorPin slideTabDiv"></div>
+            </div>
+          </div>
+          <div class="col-md-3" style="padding:0px">
+            <div class="thumbnail">
+              <div style="background:url(/images/home/alunos.jpg);" class="layoutTab img" data-slide-index="3"></div>
+              <div class="bubbleLabel" style="">
+                <h3 style="color:white;line-height:50px;">ALUNOS</h3>
+              </div>
+              <div data-slide-index="3" class="divisorPin slideTabDiv"></div>
+            </div>
+          </div>
+          <div class="col-md-3" style="padding:0px">
+            <div class="thumbnail">
+              <div style="background:url(/images/home/pais.jpg);" class="layoutTab img" data-slide-index="4"></div>
+              <div class="bubbleLabel" style="">
+                <h3 style="color:white;line-height:50px;">RESPONSÁVEIS</h3>
+              </div>
+              <div data-slide-index="4" class="divisorPin slideTabDiv"></div>
+            </div>
+          </div>
+        </div>
+        <div data-slide-index="1" class="row slideTab active">
+          <div  class="col-md-12">
+            <div class="col-md-7">
+              <p>Os professores contam com ferramentas para carregar seu próprio conteúdo, criar banco de questões e testes, enviar atividades e exercícios de forma individual e/ou coletiva, em diversos formatos, como: games, vídeos, textos com imagens e conteúdos interativos. </p>
+              <p>Além disso, professores podem acompanhar o acesso diário de seus alunos, gerenciar relatórios da evolução da aprendizagem, movimentar debates nos fóruns de discussão, interagir com os responsáveis e muito mais.
+              </p>  
+            </div>
+            <div class="col-md-5 slideTab-addon">
+              <div class="row"><i class="fa fa-area-chart"></i><span>relatórios</span></div>
+              <div class="row"><i class="fa fa-comments-o"></i><span>ferramentas de comunicação</span></div>
+              <div class="row"><i class="fa fa-question-circle"></i><span>&nbsp;suporte on-line</span></div>
+              <div class="row"><i class="fa fa-paper-plane-o"></i><span>envio de tarefas</span></div>
+              <div class="row"><i class="fa fa-sliders"></i><span>&nbsp;conteúdo personalizado</span></div>
+            </div>
+          </div>
+        </div>
+        <div data-slide-index="2" class="row slideTab">
+          <div  class="col-md-12">
+            <div class="col-md-7">
+              <p>O Wiquadro é flexível adequando-se a lógica de gerenciamento de gestores, disponibilizando recursos que permitem cadastrar escolas, turmas, professores e definir hierarquia de permissões de acesso para os diferentes tipos de usuários.</p>
+              <p>Gestores podem visualizar o universo dos alunos, de forma individual, coletiva e comparativa, quanto a desempenho, frequência, cumprimento das tarefas. Permitindo, também, da mesma forma, avaliação dos professores. 
+              </p>  
+            </div>
+            <div class="col-md-5 slideTab-addon">
+              <div class="row"><i class="fa fa-area-chart"></i><span>relatórios</span></div>
+              <div class="row"><i class="fa fa-comments-o"></i><span>ferramentas de comunicação</span></div>
+              <div class="row"><i class="fa fa-question-circle"></i><span>&nbsp;suporte on-line</span></div>
+              <div class="row"><i class="fa fa-sliders"></i><span>&nbsp;conteúdo personalizado</span></div>
+            </div>
+          </div>
+        </div>
+        <div data-slide-index="3" class="row slideTab">
+          <div  class="col-md-12">
+            <div class="col-md-7">
+              <p>Os alunos podem estudar no seu próprio ritmo, praticar e testar seus conhecimentos, e conferir seu desempenho através das áreas Estude, Pratique, Teste e Desempenho. </p>
+              <p>A plataforma, oferece ainda, recursos para comparar seu desempenho em relação a turma, receber atividades personalizadas, orientações de professores e gestores e permitir a participação em fóruns de discussão e chats.
+              </p>  
+            </div>
+            <div class="col-md-5 slideTab-addon">
+              <div class="row">
+                <i class="fa fa-area-chart"></i>
+                <span>relatórios</span>
+              </div>
+              <div class="row">
+                <i class="fa fa-comments-o"></i>
+                <span>ferramentas de comunicação</span>
+              </div>
+              <div class="row">
+                <i class="fa fa-question-circle"></i>
+                <span>&nbsp;suporte on-line</span>
+              </div>
+              <div class="row">
+                <i class="fa fa-sliders"></i>
+                <span>&nbsp;atividades interativas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-slide-index="4" class="row slideTab">
+          <div  class="col-md-12">
+            <div class="col-md-7">
+              <p>Levando em conta a relevância da participação dos responsáveis no processo de aprendizagem do aluno, o Wiquadro disponibiliza um ambiente adequado para o acompanhamento da evolução do desempenho e acesso diário, além de canais para troca de mensagens com professores e gestores, com conteúdos e orientações para apoiar os estudos em casa.
+              </p>
+            </div>
+            <div class="col-md-5 slideTab-addon">
+              <div class="row">
+                <i class="fa fa-area-chart"></i>
+                <span>relatórios</span>
+              </div>
+              <div class="row">
+                <i class="fa fa-comments-o"></i>
+                <span>ferramentas de comunicação</span>
+              </div>
+              <div class="row">
+                <i class="fa fa-question-circle"></i>
+                <span>&nbsp;suporte on-line</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contsainer visible-xs visible-sm">
+        <h1 class="text-uppercase">beneficiados</h1>
+        <div class="panel-group" id="benificiados-accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <a data-toggle="collapse" data-parent="#benificiados-accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h4 class="panel-title">PROFESSORES</h4>
+              </a>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                <div class="col-sm-6">
+                  <div style="background:url(/images/home/professores.jpg) center no-repeat;" class="layoutTab active" data-slide-index="1"></div>
+                </div>
+                <div class="col-sm-6">
+                  <p>Os professores contam com ferramentas para carregar seu próprio conteúdo, criar banco de questões e testes, enviar atividades e exercícios de forma individual e/ou coletiva, em diversos formatos, como: games, vídeos, textos com imagens e conteúdos interativos. </p>
+                  <p>Além disso, professores podem acompanhar o acesso diário de seus alunos, gerenciar relatórios da evolução da aprendizagem, movimentar debates nos fóruns de discussão, interagir com os responsáveis e muito mais.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <a data-toggle="collapse" data-parent="#benificiados-accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <h4 class="panel-title">GESTORES</h4>
+              </a>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                <div class="col-sm-6">
+                  <div style="background:url(/images/home/gestores.jpg) center no-repeat;" class="layoutTab active" data-slide-index="1"></div>
+                </div>
+                <div class="col-sm-6">
+                  <p>O Wiquadro é flexível adequando-se a lógica de gerenciamento de gestores, disponibilizando recursos que permitem cadastrar escolas, turmas, professores e definir hierarquia de permissões de acesso para os diferentes tipos de usuários.</p>
+                  <p>Gestores podem visualizar o universo dos alunos, de forma individual, coletiva e comparativa, quanto a desempenho, frequência, cumprimento das tarefas. Permitindo, também, da mesma forma, avaliação dos professores. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-heading" role="tab" id="headingThree">
+              <a data-toggle="collapse" data-parent="#benificiados-accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <h4 class="panel-title">ALUNOS</h4>
+              </a>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                <div class="col-sm-6">
+                  <div style="background:url(/images/home/alunos.jpg) center no-repeat;" class="layoutTab active" data-slide-index="1"></div>
+                </div>
+                <div class="col-sm-6">
+                  <p>Os alunos podem estudar no seu próprio ritmo, praticar e testar seus conhecimentos, e conferir seu desempenho através das áreas Estude, Pratique, Teste e Desempenho. </p>
+                  <p>A plataforma, oferece ainda, recursos para comparar seu desempenho em relação a turma, receber atividades personalizadas, orientações de professores e gestores e permitir a participação em fóruns de discussão e chats.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-heading" role="tab" id="headingfuor">
+              <a data-toggle="collapse" data-parent="#benificiados-accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                <h4 class="panel-title">RESPONSÁVEIS</h4>
+              </a>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfuor">
+              <div class="panel-body">
+                <div class="col-sm-6">
+                  <div style="background:url(/images/home/pais.jpg) center no-repeat;" class="layoutTab" data-slide-index="4"></div>
+                </div>
+                <div class="col-sm-6">
+                  <p>Levando em conta a relevância da participação dos responsáveis no processo de aprendizagem do aluno, o Wiquadro disponibiliza um ambiente adequado para o acompanhamento da evolução do desempenho e acesso diário, além de canais para troca de mensagens com professores e gestores, com conteúdos e orientações para apoiar os estudos em casa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="porDentro" class="row" style="">
+      <div class="container hidden-xs hidden-sm">
+        <div class=" col-md-4 controls"  style="padding-right:0">
+          <div class=" col-md-12" style="padding:0">
+            <h1>POR DENTRO DO WIQUADRO</h1>
+            <div class="row">
+              <div data-slide-index="1" class="btnSideSlider active">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>ESTUDE</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row">
+              <div data-slide-index="2" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>PRATIQUE</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row"> 
+              <div data-slide-index="3" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>TESTE</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row">
+              <div data-slide-index="4" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>DESEMPENHO</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row"> 
+              <div data-slide-index="5" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>PROFESSOR</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row"> 
+              <div data-slide-index="6" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>GESTOR</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row"> 
+              <div data-slide-index="7" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>ALUNO</span></div>
+              </div>
+            </div>
+            <div class="row"><div class="divisor"></div></div>
+            <div class="row"> 
+              <div data-slide-index="8" class="btnSideSlider">
+                <div class="col-md-2">
+                  <div class="thumb"></div>
+                </div>
+                <div class="text col-md-10"><span>RESPONSÁVEIS</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8" style="background:#e7e6e3;text-align:center;font-family:gothamBook;padding:0">
+          <div data-slide-index="1" class="col-md-10 slidePaneImg">
+            <img src="/images/home/tela_estude.png">
+          </div>
+          <div data-slide-index="2" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_pratique.png">
+          </div>
+          <div data-slide-index="3" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_teste.png">
+          </div>
+          <div data-slide-index="4" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_desempenho.png">
+          </div>
+          <div data-slide-index="5" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_professor.png">
+          </div>
+          <div data-slide-index="6" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_supervisor.png">
+          </div>
+          <div data-slide-index="7" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_aluno.png">
+          </div>
+          <div data-slide-index="8" class="col-md-10 slidePaneImg" style="display:none">
+            <img src="/images/home/tela_pai.png">
+          </div>
+        </div>
+      </div>
+      <div class="container visible-xs visible-sm" style="text-align:center;">
+        <h1 class="text-uppercase" style="color:#000">por dentro do wiquadro</h1>
+        <div id="por-dentro-carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="0"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#por-dentro-carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <h2>ESTUDE</h2>
+              <img alt="Estude" src="/images/home/tela_estude.png">
+            </div>
+            <div class="item">
+              <h2>PRATIQUE</h2>
+              <img alt="Pratique" src="/images/home/tela_pratique.png">
+            </div>
+            <div class="item">
+              <h2>TESTE</h2>
+              <img alt="Teste" src="/images/home/tela_teste.png">
+            </div>
+            <div class="item">
+              <h2>DESEMPENHO</h2>
+              <img alt="Desempenho" src="/images/home/tela_desempenho.png">
+            </div>
+            <div class="item">
+              <h2>PROFESSOR</h2>
+              <img alt="Professor" src="/images/home/tela_professor.png">
+            </div>
+            <div class="item">
+              <h2>SUPERVISOR</h2>
+              <img alt="Supervisor" src="/images/home/tela_supervisor.png">
+            </div>
+            <div class="item">
+              <h2>ALUNO</h2>
+              <img alt="Aluno" src="/images/home/tela_aluno.png">
+            </div>
+            <div class="item">
+              <h2>RESPONSÁVEL</h2>
+              <img alt="Responsável" src="/images/home/tela_pai.png">
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#por-dentro-carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#por-dentro-carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="login" class="row">
+      <div class="row"><!-- Row dentro de row-->
+        <div class="main-login">
+          <h1 style="text-align:center;font-family:gothamBook">LOGIN</h1>
+          <form method="post" action="/site/login" class="form-login">
+            <div class="form-group">
+              <label for="Usuario_Email">Email ou CPF</label>
+              <input class="form-control" tabindex="1" name="LoginForm[username]" id="LoginForm_username" type="text" />                                    </div>
+            <div class="form-group">
+              <a class="pull-right esqueci-senha" tabindex="5" href="/site/esqueciminhasenha">Esqueci minha senha</a>
+              <label for="Usuario_Senha">Senha</label>                    <input class="form-control" tabindex="2" name="LoginForm[password]" id="LoginForm_password" type="password" maxlength="32" />                                   </div>
+            <div class="col-xs-6" style="padding:0;padding-right:10px">
+              <button type="submit" class="btn btn-block btn-p1" style="background:#f1b019;height:50px;font-size:20px;text-align:center;font-family:gothamBook;letter-spacing:-1px" tabindex="3">LOGIN</button>
+            </div>
+            <div class="col-xs-6" style="padding:0;dding-left:10px">
+              <a href="/site/registro" tabindex="4"  >
+                <div style="background:#e3584f;color:white; width:100%;height:50px;line-height:50px;font-size:20px;text-align:center;font-family:gothamBook;letter-spacing:-1px">CADASTRAR</div>
+              </a>
+            </div>
+            <div class="col-xs-12" style="padding:0;margin-top: 10px;">
+              <a href="#" class="facebookLoginButton" tabindex="4">
+                <div style="background:#3b5998;color:white; width:100%;height:50px;line-height:50px;font-size:20px;text-align:center;font-family:gothamBook;letter-spacing:-1px;padding-left: 40px;">
+                  <div style="margin-top: 5px; float: left; font-size: 15px">
+                    <i class="fa fa-facebook fa-3x"></i>
+                  </div>
+                  <div style="float: left">&nbsp &nbsp &nbspLOGIN COM FACEBOOK</div>
+                </div>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="quemUsa">
+      <div class="container" style="overflow: hidden;">
+        <div class="row" style="text-align:center">
+          <h1>QUEM USA</h1>
+        </div>
+        <div class="row">
+          <div class="owl-carousel">
+            <div>
+              <img width="150" src="/images/home/clientes/logo_Gov_Ceara-01.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/logo_novo.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/logo_topo.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/pro-cidadania.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/ensinart-logo-01.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/escala.gif">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/fundep.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/logo-see.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/logo_ATN-1.png">
+            </div>
+            <div>
+              <img width="150" src="/images/home/clientes/profissionet.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="background:#5c6d7b">
+      <div class="container padding-top-bottom-100">
+        <div class="container-fluid">
+          <div class="col-md-4 visible-lg visible-md" style="text-align:center;margin-top:28px;">
+            <img class="wisymbol" src="/images/home/wiSymbol.svg">
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12" style="text-align:center">
+            <div class="row" style="text-align:center">
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="http://www.facebook.com/wiquadro">
+                  <span  class="social social-facebook">
+                    <i class="fa fa-facebook fa-3x"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="http://www.twitter.com/wilivro">
+                  <span  class="social social-twitter">
+                    <i class="fa fa-twitter fa-3x"></i>
+                  </span>
+                  <a>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <a href="http://www.youtube.com/wilivro">
+                      <span  class="social social-youtube">
+                        <i class="fa fa-youtube fa-3x"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12" style="margin-top:20px;text-align:center">
+                    <p style="font-size:18px;font-family:gothamBook;color:white">
+                    Av. Afrânio de Melo Franco, 333 - Quitandinha <br>
+                    Petrópolis - Rio de Janeiro - Brasil <br>
+                    </p>
+                    <p style="font-size:18px;font-family:gothamBook;color:#dfad31">
+                    +55 24 2248 7384 <br>
+                    contato@wiquadro.com.br
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 col-xs-12" style="text-align:center;margin-top:51px;">
+                <a href="/site/faleConosco">
+                  <img src="/images/home/fale-conosco.png">
+                  <div class="row">
+                    <span style="font-size:20px; color:#FFF">FALE CONOSCO</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-2">
+          <a href="#wiquadro" style="margin-right:10px" class="anchor pull-right"><i class="fa fa-angle-up"></i></a>
+          <div class="container">
+            <span>&copy; 2014 - 2015 wiquadro</span>
+            <div class="pull-right">
+              <a href="javascript:;" class="lang awesome-tooltip" data-lang="en_US" title="English">EN</a>
+              <a href="javascript:;" class="lang awesome-tooltip" data-lang="es_ES" title="Español">ES</a>
+              <a href="javascript:;" class="lang awesome-tooltip" data-lang="pt_BR" title="Português">PT</a>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="/js_site/script.min.js"></script>
+      </body>
+    </html>
